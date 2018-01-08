@@ -34,8 +34,7 @@
 * Topics
   * Who am I?
     * [Works](https://vimeo.com/136505838)
-  * And YOU?
-  * What is computer programming and why you should learn
+  * What is computer programming and why you want to learn
   * Reference works
     * [John Maeda Design](https://www.google.com/search?q=john+maeda&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjdlPai1b_RAhUs7oMKHXA_A7UQ_AUICSgC&biw=1167&bih=888#tbm=isch&q=john+maeda+graphic+design&imgrc=PhLxs7TrTqQ07M%3A)
     * [Zach Liberman's Instagram](https://www.instagram.com/zach.lieberman/?hl=en)
@@ -67,21 +66,23 @@
 
 ### Week 6 -- Object / 2D transformation
 
-### Week 7 -- OOP / Array
+### Week 7 -- OOP
 
-### Week 8 -- Array 2 / Vector
+### Week 8 -- Array
 
-### Week 9 -- Vector / Force
+### Week 9 -- Vector
 
-### Week 10 -- Force / Particle -- Assignment 2 due date
+### Week 10 -- Force -- Assignment 2 due date
 
-### Week 11 -- 1:1 Meeting
+### Week 11 -- Particle
 
-### Week 12 -- Image / Object Interaction
+### Week 12 -- Image
 
-### Week 13 -- Shooting the arrow
+### Week 13 -- 1:1 Meeting
 
-### Week 14 -- Final Project Presentation
+### Week 14 -- Object Interaction
+
+### Week 15 -- Final Project Presentation
 
 ## Students with Disabilities
 
