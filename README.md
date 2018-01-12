@@ -51,6 +51,7 @@
 
 ### Week 2 -- Tools and basic concept
 * Topics
+  * [John Maeda Ted 2012](https://www.ted.com/talks/john_maeda_how_art_technology_and_design_inform_creative_leaders)
   * Using Github
   * Step-by-step approach
   * Canvas, Pixels and Color
