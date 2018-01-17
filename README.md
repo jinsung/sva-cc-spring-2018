@@ -53,8 +53,8 @@
 * Topics
   * [John Maeda Ted 2012](https://www.ted.com/talks/john_maeda_how_art_technology_and_design_inform_creative_leaders)
   * [Step-by-step approach](https://www.youtube.com/watch?v=cDA3_5982h8)
-  * Using Github
   * Canvas, Pixels and Color
+  * Using Github
   * Setup / Draw Functions
   * Shapes
   * Using Chrome developer tool
