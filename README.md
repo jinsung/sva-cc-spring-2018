@@ -57,7 +57,7 @@
   * Canvas, Pixels and Color
   * Using Github
   * Setup / Draw Functions
-  * Shapes
+  * Shapes / Background
   * Using Chrome developer tool
 
 ### Week 3 -- Variables and Animation
