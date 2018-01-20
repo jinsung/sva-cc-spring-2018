@@ -7,6 +7,6 @@ function setup(){
 function draw(){
   noStroke();
   fill(0, 255 - mouseX, 255 - mouseY);
-  ellipse(250, 250, mouseX, mouseY);
+  ellipse(mouseX, mouseY, 100, 100 );
 
 }
