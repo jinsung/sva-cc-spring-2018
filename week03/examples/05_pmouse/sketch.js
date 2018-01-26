@@ -25,7 +25,7 @@ function draw() {
   // 3
   //strokeWeight(abs(mouseX - pmouseX));
   //stroke(abs(mouseX - pmouseX)*3);
-  //line (mouseX, mouseY, pmouseX, pmouseY);
+  line (mouseX, mouseY, pmouseX, pmouseY);
 
   // 4
   /*if (mouseIsPressed) {
