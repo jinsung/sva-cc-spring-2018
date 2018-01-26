@@ -60,7 +60,30 @@
   * Shapes / Background
   * Using Chrome developer tool
 
-### Week 3 -- Variables and Animation
+### Week 3 -- Comment, Variables and Animation
+* Topics
+  * Comment
+  * [Variable](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/01_variables/index.html)
+    * Declare
+    * Initialize
+    * Use
+  * [Variables / Reuse](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/02_variables/index.html)
+  * Console.log
+  * [Built in variables](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/03_1_built_in_variables/index.html)
+    * Canvas Size / Mouse Position
+  * [Animation](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/03_1_built_in_variables/index.html)
+  * [Random Numbers](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/07_random/index.html)
+  * Scope
+  * [MouseX and MouseY & Previous Mouse Position](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/05_pmouse/index.html)
+  * [Interaction](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/05_pmouse/index.html)
+  * [Easing](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/08_easing/index.html)
+  * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260)
+* Assignment: Generative art #1
+  * Draw shapes
+  * Make time or interactive based animation
+  * Play with colors
+  * Use If statement.
+  * Use For loop for bonus points!
 
 ### Week 4 -- Conditionals / Loop
 
