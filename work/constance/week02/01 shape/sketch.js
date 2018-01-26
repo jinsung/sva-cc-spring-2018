@@ -1,39 +1,34 @@
-var circleX=0;
-var circleY=700;
-var circleA=600;
-
+var X=0;
+var Y=0;
 
 function setup() {
-  createCanvas(1000,700);
 
-  background(220,40,210);
+  createCanvas(1000,750);
+  background(197,255,3);
+
 }
-
-
 
 function draw() {
 
- //circle
-   fill(random(250),random(200),200);
-   ellipse(circleX,circleX,circleX,circleX);
+  stroke(255,0,127);
+  //noStroke(0);
+  fill(255,51,255,50);
 
-   circleX=circleX+5
 
-//secondcircle
-   fill(random(250),random(20),random(200),100);
-   ellipse(200,circleY,circleY,circleY);
+  X=X+0.5
 
-   circleY=circleY-6
+  ellipse(mouseX,mouseY,X,X);
 
-   //third circle
+  //Y=Y+5
+//fill(200,51,200,50)
+//  ellipse(mouseX,mouseY,Y,X);
 
-   //fill(250,random(200),random(200));
-   //ellipse(circleA,circleX,circleY,circleX);
+  if (mouseIsPressed) {
+      background(197,255,3);
 
-   circleA=circleA+6
 
-   //square
-   //rect(400,400,circleA,circleA);
+
+    }
 
 
 }
