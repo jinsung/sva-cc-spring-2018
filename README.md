@@ -60,9 +60,29 @@
   * Shapes / Background
   * Using Chrome developer tool
 
-### Week 3 -- Variables and Animation
+### Week 3 -- Bouncing Ball!
+* Topics
+  * Comment
+  * [Variable](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/01_variables/index.html)
+    * Declare
+    * Initialize
+    * Use
+  * [Animation](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/02_animation/index.html)
+  * Console.log
+  * [Built in variables](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/03_2_built_in_variables/index.html)
+    * Canvas Size / Mouse Position
+  * [Random Numbers](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/07_random/index.html)
+  * Boolean Variable
+  * Conditional Statement
+  * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260)
+* Assignment: Generative art #1
+  * Draw shapes
+  * Make time or interactive based animation
+  * Play with colors
+  * Use If statement.
+  * Use For loop for bonus points!
 
-### Week 4 -- Conditionals / Loop
+### Week 4 -- Variable / Loop
 
 ### Week 5 -- Functions - Assignment 1 due date
 
