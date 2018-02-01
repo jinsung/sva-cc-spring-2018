@@ -92,25 +92,25 @@
   * [Nested Loops](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/04_nested_loop/index.html)
   * [Random, Sine, Cosine and Noise!!!](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/05_noise/index.html)
 
-### Week 5 -- Functions - Assignment 1 due date
+### Week 5 -- Guest Speaker: Sam Brewton - Assignment 1 due date
 
-### Week 6 -- Object / 2D transformation
+### Week 6 -- Functions
 
-### Week 7 -- OOP
+### Week 7 -- Object / 2D transformation
 
-### Week 8 -- Array
+### Week 8 -- OOP
 
-### Week 9 -- Vector
+### Week 9 -- Array
 
-### Week 10 -- Force -- Assignment 2 due date
+### Week 10 -- Vector
 
-### Week 11 -- Particle
+### Week 11 -- Force -- Assignment 2 due date
 
-### Week 12 -- Image
+### Week 12 -- Particle
 
-### Week 13 -- 1:1 Meeting
+### Week 13 -- Image
 
-### Week 14 -- Object Interaction
+### Week 14 -- 1:1 Meeting
 
 ### Week 15 -- Final Project Presentation
 
