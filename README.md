@@ -82,7 +82,15 @@
   * Use If statement.
   * Use For loop for bonus points!
 
-### Week 4 -- Variable / Loop
+### Week 4 -- Loop & Grid animation
+* Topics
+  * [if / else](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/01_conditions/index.html)
+  * Comparison Operators
+  * [While loop](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/02_while_loop/index.html)
+  * Loop inside of draw function
+  * [For Loop](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/03_for_loop/index.html)
+  * [Nested Loops](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/04_nested_loop/index.html)
+  * [Random, Sine, Cosine and Noise!!!](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/05_noise/index.html)
 
 ### Week 5 -- Functions - Assignment 1 due date
 
