@@ -75,7 +75,7 @@
   * Boolean Variable
   * Conditional Statement
   * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260)
-* Assignment: Generative art #1
+* Assignment: Generative art #1 ( Due date - 02/16/2018 )
   * Draw shapes
   * Make time or interactive based animation
   * Play with colors
@@ -92,7 +92,7 @@
   * [Nested Loops](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/04_nested_loop/index.html)
   * [Random, Sine, Cosine and Noise!!!](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/05_noise/index.html)
 
-### Week 5 -- Guest Speaker: Sam Brewton - Assignment 1 due date
+### Week 5 -- Guest Speaker: Sam Brewton
 
 ### Week 6 -- Functions
 
