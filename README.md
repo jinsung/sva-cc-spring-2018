@@ -60,29 +60,57 @@
   * Shapes / Background
   * Using Chrome developer tool
 
-### Week 3 -- Variables and Animation
+### Week 3 -- Bouncing Ball!
+* Topics
+  * Comment
+  * [Variable](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/01_variables/index.html)
+    * Declare
+    * Initialize
+    * Use
+  * [Animation](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/02_animation/index.html)
+  * Console.log
+  * [Built in variables](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/03_2_built_in_variables/index.html)
+    * Canvas Size / Mouse Position
+  * [Random Numbers](https://jinsung.github.io/sva-cc-spring-2018/week03/examples/07_random/index.html)
+  * Boolean Variable
+  * Conditional Statement
+  * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260)
+* Assignment: Generative art #1 ( Due date - 02/16/2018 )
+  * Draw shapes
+  * Make time or interactive based animation
+  * Play with colors
+  * Use If statement.
+  * Use For loop for bonus points!
 
-### Week 4 -- Conditionals / Loop
+### Week 4 -- Loop & Grid animation
+* Topics
+  * [if / else](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/01_conditions/index.html)
+  * Comparison Operators
+  * [While loop](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/02_while_loop/index.html)
+  * Loop inside of draw function
+  * [For Loop](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/03_for_loop/index.html)
+  * [Nested Loops](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/04_nested_loop/index.html)
+  * [Random, Sine, Cosine and Noise!!!](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/05_noise/index.html)
 
-### Week 5 -- Functions - Assignment 1 due date
+### Week 5 -- Guest Speaker: Sam Brewton
 
-### Week 6 -- Object / 2D transformation
+### Week 6 -- Functions
 
-### Week 7 -- OOP
+### Week 7 -- Object / 2D transformation
 
-### Week 8 -- Array
+### Week 8 -- OOP
 
-### Week 9 -- Vector
+### Week 9 -- Array
 
-### Week 10 -- Force -- Assignment 2 due date
+### Week 10 -- Vector
 
-### Week 11 -- Particle
+### Week 11 -- Force -- Assignment 2 due date
 
-### Week 12 -- Image
+### Week 12 -- Particle
 
-### Week 13 -- 1:1 Meeting
+### Week 13 -- Image
 
-### Week 14 -- Object Interaction
+### Week 14 -- 1:1 Meeting
 
 ### Week 15 -- Final Project Presentation
 
