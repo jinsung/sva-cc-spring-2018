@@ -16,6 +16,6 @@ function draw() {
  noStroke();
  stroke(2, 0, 0, 100)
  fill(myRandomNumR, 0, 100, 100);
- ellipse(myRandomNumX, myRandomNumY, 50, 50);
+ ellipse(myRandomNumX, myRandomNumY, 80, 80);
 
 }
