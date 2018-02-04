@@ -7,14 +7,14 @@ function setup(){
   createCanvas(500,500);
   cirY=250;
   cirX=250;
-  cirXspeed=5;
-  cirYspeed=10;
+  cirXspeed=60;
+  cirYspeed=35;
 
 }
 
 function draw(){
   background(200);
-  ellipse(cirX,cirY,cirX,ciry);//좌표,크기
+  ellipse(cirX,cirY,100,100);//좌표,크기
   noStroke();
   //storke(,,,);
   fill(cirX,cirY,150);
