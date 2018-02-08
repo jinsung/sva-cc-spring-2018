@@ -13,21 +13,25 @@ function setup() {
 
 
 function draw () {
-  fill (myRandomNumX * 0.17, myRandomNumY * 0.32, 255, 10);
+  fill (myRandomNumX * 0.17, myRandomNumY * 0.32, 255, 100);
   ellipse (mouseX, mouseY, clickSize, clickSize);
   noStroke ();
   myRandomNumX = random(width);
   myRandomNumY = random(height);
+  fill(230);
+  rect (50, 40, 600, 150);
+  clickSize = random(300);
+  fill(0);
+
+  textSize(50);
+  text('Current Brush Size', 100, 100);
+  text(clickSize, 100, 170);
+
 }
 
 function mouseClicked() {
   if (clickSize === clickSize) {
-    clickSize = random(300);
-    textSize(50);
-    text('click to change brush size', 500, 500);
-    text('brush size:', 500, 570);
-    text(clickSize, 750, 570);
-    fill(100,100,100);
+
 
   }
 }

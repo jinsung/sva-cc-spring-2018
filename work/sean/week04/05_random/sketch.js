@@ -16,7 +16,8 @@ function draw () {
       //circleSize = random(5, 10);
       //circleSize = (Math.sin(circleX * 0.26) + Math.cos(circleY * 0.5)) * 4 + 3;
       var noiseVal = noise( circleX * 0.009, circleY * 0.00451, time );
-      circleSize= noiseVal * 13.0;
+      circleSize = noiseVal * 13.0;
+
       fill (mouseX, mouseY, 150);
       ellipse(circleX, circleY, circleSize, circleSize);
 
