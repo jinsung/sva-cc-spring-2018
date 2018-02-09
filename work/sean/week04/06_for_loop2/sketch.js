@@ -1,6 +1,6 @@
 //Setting up the Canvas
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(1400, 800);
   colorMode(HSB, 100);
 }
 

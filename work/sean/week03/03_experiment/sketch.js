@@ -1,4 +1,5 @@
 
+
 var myRandomNumX;
 var myRandomNumY;
 
@@ -7,31 +8,30 @@ var clickSize;
 function setup() {
   createCanvas(1427,785);
   background(230);
-
-  clickSize = random(300);
+  clickSize = random(30);
 }
 
 
 function draw () {
-  fill (myRandomNumX * 0.17, myRandomNumY * 0.32, 255, 100);
+  //fill (myRandomNumX * 0.17, myRandomNumY * 0.32, 255);
+  fill (255)
   ellipse (mouseX, mouseY, clickSize, clickSize);
-  noStroke ();
+  //noStroke ();
   myRandomNumX = random(width);
   myRandomNumY = random(height);
-  fill(230);
-  rect (50, 40, 600, 150);
-  clickSize = random(300);
+
+  fill(255);
+  rect (80, 74, 300, 40);
   fill(0);
 
-  textSize(50);
-  text('Current Brush Size', 100, 100);
-  text(clickSize, 100, 170);
-
+  textSize(20);
+  text('Click to Change Ellipse Size', 100, 100);
+  console.log("Ellipse")
 }
 
 function mouseClicked() {
   if (clickSize === clickSize) {
-
-
+    clickSize = random(300);
   }
+  console.log("Mouse Click")
 }
