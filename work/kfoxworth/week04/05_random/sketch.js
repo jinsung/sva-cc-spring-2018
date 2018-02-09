@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-  background(200);
+  background(10);
 
   fill( 255 );
   var space = 20;
