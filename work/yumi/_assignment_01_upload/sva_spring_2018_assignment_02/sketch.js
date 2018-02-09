@@ -5,12 +5,12 @@ var xPos;
 var xSize = 100;
 var yPos = 0;
 var plus = 0;
-//var up = -1;
+var music;
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
+  music = loadSound('assets/music.mp3');
     //setTimeout('move', 1000);
-
 
 }
 
@@ -100,5 +100,9 @@ function mouseClicked(){
 
   plus = 1;
 
-
+  if(music.isPlaying()){
+    music.stop();
+  } else {
+  music.play();
+  }
 }
