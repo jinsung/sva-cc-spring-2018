@@ -1,10 +1,10 @@
 var time = 0;
 function setup() {
-  createCanvas(500,500);
+  createCanvas(1400,800);
 }
 
 function draw () {
-  background(200);
+  background(255);
 
   fill (255);
   var space = 20;
@@ -15,8 +15,9 @@ function draw () {
     for ( var circleY = 0; circleY < height; circleY = circleY + space ){
       //circleSize = random(5, 10);
       //circleSize = (Math.sin(circleX * 0.26) + Math.cos(circleY * 0.5)) * 4 + 3;
-      var noiseVal = noise( circleX * 0.009, circleY * 0.00451, time );
-      circleSize= noiseVal * 13.0;
+      var noiseVal = noise( circleX * 0.015, circleY * 0.00451, time );
+      circleSize = noiseVal * 20.0;
+
       fill (mouseX, mouseY, 150);
       ellipse(circleX, circleY, circleSize, circleSize);
 
