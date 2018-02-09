@@ -75,7 +75,7 @@
   * Boolean Variable
   * Conditional Statement
   * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260)
-* Assignment: Generative art #1
+* Assignment: Generative art #1 ( Due date - 02/16/2018 )
   * Draw shapes
   * Make time or interactive based animation
   * Play with colors

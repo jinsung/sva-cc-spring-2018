@@ -12,7 +12,7 @@ function draw() {
   myRandomNumY = random(height);
   myRandomR = random(255);
   noStroke();
-//stroke(255, 0, 0, 255100);
+  stroke(255, 0, 0, 100);
   // fourth parameter is alpha
   fill(myRandomR, 0 , 0, 100);
   ellipse(myRandomNumX, myRandomNumY, 20, 20);
