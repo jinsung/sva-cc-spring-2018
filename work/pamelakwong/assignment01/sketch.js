@@ -14,7 +14,7 @@ function draw() {
 
       ellipse(mouseY, mouseX, 50, 50);
       ellipse(mouseY, mouseY, 80, 80);
-        counter = counter + 1;
+
     }
   }
 
