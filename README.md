@@ -96,7 +96,7 @@
 * Assignment review
 * Topics
   * Define and Calling a Function
-  * [Bouncing ball with Function](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/02_bouncing_ball_w_function/index.html)
+  * [Bouncing ball with Function](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/02_bouncing_ball_w_function/)
   * [Draw Target](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/04_target_w_function/index.html)
   * [Distance Function](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/05_0_distance/index.html)
 * Assignment : [Clock](http://cmuems.com/2016/60212/lectures/lecture-09-09b-clocks/maedas-clocks/)
