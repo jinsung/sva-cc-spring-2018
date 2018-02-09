@@ -11,7 +11,7 @@ function draw() {
   myRandomNumY=random(height);
   myRandomNumR=random(255);
 
-  fill(myRandomNumR,myRandomNumX,0);
+  fill(myRandomNumR,0,myRandomNumY);
   ellipse(myRandomNumX,myRandomNumY,20,20);
 }
 //
