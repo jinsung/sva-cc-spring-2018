@@ -1,13 +1,14 @@
-function setup(){
-  createCanvas(500,500);
-background(200,30,150);
+var col=0;
 
+function setup(){
+  createCanvas(600,400);
 }
 
 function draw(){
+  col = map(mouseX,0,600,0,255);
+  background(col);
 
-noStroke();
-fill(mouseX*0.5);
-ellipse(250,250,mouseX,mouseY);
+  fill(250,118,222);
+  ellipse(mouseX,200,64,64);
 
 }

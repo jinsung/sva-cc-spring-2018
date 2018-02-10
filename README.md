@@ -75,34 +75,50 @@
   * Boolean Variable
   * Conditional Statement
   * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260)
-* Assignment: Generative art #1
+* Assignment: Generative art #1 ( Due date - 02/16/2018 )
   * Draw shapes
   * Make time or interactive based animation
   * Play with colors
   * Use If statement.
   * Use For loop for bonus points!
 
-### Week 4 -- Variable / Loop
+### Week 4 -- Loop & Grid animation
+* Topics
+  * [if / else](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/01_conditions/index.html)
+  * Comparison Operators
+  * [While loop](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/02_while_loop/index.html)
+  * Loop inside of draw function
+  * [For Loop](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/03_for_loop/index.html)
+  * [Nested Loops](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/04_nested_loop/index.html)
+  * [Random, Sine, Cosine and Noise!!!](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/05_noise/index.html)
 
 ### Week 5 -- Functions - Assignment 1 due date
+* Assignment review
+* Topics
+  * Define and Calling a Function
+  * [Bouncing ball with Function](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/02_bouncing_ball_w_function/)
+  * [Draw Target](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/04_target_w_function/index.html)
+  * [Distance Function](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/05_0_distance/index.html)
+* Assignment : [Clock](http://cmuems.com/2016/60212/lectures/lecture-09-09b-clocks/maedas-clocks/)
+  * [Clock Template](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/07_clock_template/index.html)
 
-### Week 6 -- Object / 2D transformation
+### Week 6 -- Guest Speaker: Sam Brewton
 
-### Week 7 -- OOP
+### Week 7 -- Text / Object
 
-### Week 8 -- Array
+### Week 8 -- OOP / 2D transformation
 
-### Week 9 -- Vector
+### Week 9 -- Array
 
-### Week 10 -- Force -- Assignment 2 due date
+### Week 10 -- Vector
 
-### Week 11 -- Particle
+### Week 11 -- Force -- Assignment 2 due date
 
-### Week 12 -- Image
+### Week 12 -- Particle
 
-### Week 13 -- 1:1 Meeting
+### Week 13 -- Image
 
-### Week 14 -- Object Interaction
+### Week 14 -- 1:1 Meeting
 
 ### Week 15 -- Final Project Presentation
 
