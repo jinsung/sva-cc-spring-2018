@@ -1,21 +1,35 @@
 var circleY;
 var circleX;
+
 var circleXSpeed;
 var circleYSpeed;
-var circleXSpeedEqual;
+
+var myRandomNumX;
+var myRandomNumY;
+
+var clickSize;
 
 function setup() {
-  createCanvas(1500,800);
-  circleY = 250;
-  circleX = 250;
-  circleXSpeed = 50;
-  circleYSpeed = 40;
+  createCanvas(1427,785);
+  background(230);
+
+  circleY = 0;
+  circleX = 0;
+  circleXSpeed = 4.7;
+  circleYSpeed = 7.6;
+
+  clickSize = 70;
 }
 
 function draw () {
-  background (200);
-  ellipse (circleX, circleY, circleY, circleY);
-  fill (circleX, circleY, 150);
+
+  ellipse (circleX, circleY, clickSize, clickSize);
+  fill (myRandomNumX * 0.17, myRandomNumY * 0.32, 255);
+  noStroke ();
+
+  myRandomNumX = random(width);
+  myRandomNumY = random(height);
+
   circleY = circleY + circleYSpeed;
   circleX = circleX + circleXSpeed;
 
@@ -28,4 +42,11 @@ function draw () {
   }
 
   // console.log("circleX is " + circleX);
+}
+
+
+function mouseClicked() {
+  if (clickSize === clickSize) {
+    clickSize = random(300);
+  }
 }

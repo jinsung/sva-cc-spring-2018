@@ -92,13 +92,21 @@
   * [Nested Loops](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/04_nested_loop/index.html)
   * [Random, Sine, Cosine and Noise!!!](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/05_noise/index.html)
 
-### Week 5 -- Guest Speaker: Sam Brewton
+### Week 5 -- Functions - Assignment 1 due date
+* Assignment review
+* Topics
+  * Define and Calling a Function
+  * [Bouncing ball with Function](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/02_bouncing_ball_w_function/)
+  * [Draw Target](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/04_target_w_function/index.html)
+  * [Distance Function](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/05_0_distance/index.html)
+* Assignment : [Clock](http://cmuems.com/2016/60212/lectures/lecture-09-09b-clocks/maedas-clocks/)
+  * [Clock Template](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/07_clock_template/index.html)
 
-### Week 6 -- Functions
+### Week 6 -- Guest Speaker: Sam Brewton
 
-### Week 7 -- Object / 2D transformation
+### Week 7 -- Text / Object
 
-### Week 8 -- OOP
+### Week 8 -- OOP / 2D transformation
 
 ### Week 9 -- Array
 
