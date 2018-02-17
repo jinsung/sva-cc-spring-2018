@@ -100,15 +100,18 @@
   * [Draw Target](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/04_target_w_function/index.html)
   * [Distance Function](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/05_0_distance/index.html)
 * Assignment : [Clock](http://cmuems.com/2016/60212/lectures/lecture-09-09b-clocks/maedas-clocks/)
+
+### Week 6 -- Clock / 2D Transformation / Object
   * [Clock Template](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/07_clock_template/index.html)
+  * [2D Transformation](https://jinsung.github.io/sva-cc-spring-2018/week06/examples/02_transform/index.html)
+    * Translate / Rotate - Degree vs Radians / Scale / Registration Point
+  * [Object]
 
-### Week 6 -- Guest Speaker: Sam Brewton
+### Week 7 -- Guest Speaker: Sam Brewton
 
-### Week 7 -- Text / Object
+### Week 8 -- Array
 
-### Week 8 -- OOP / 2D transformation
-
-### Week 9 -- Array
+### Week 9 -- Image / Font
 
 ### Week 10 -- Vector
 
@@ -116,9 +119,9 @@
 
 ### Week 12 -- Particle
 
-### Week 13 -- Image
+### Week 13 -- 1:1 Meeting
 
-### Week 14 -- 1:1 Meeting
+### Week 14 -- Object Interaction
 
 ### Week 15 -- Final Project Presentation
 
