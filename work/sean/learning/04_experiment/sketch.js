@@ -7,15 +7,14 @@ var clickSize;
 
 function setup() {
   createCanvas(1427,785);
-  background(255);
+  background(230);
   clickSize = random(30);
 }
 
 
 function draw () {
-  //fill (myRandomNumX * 0.17, myRandomNumY * 0.32, 255,10);
-  //fill (255)
-  noFill();
+  //fill (myRandomNumX * 0.17, myRandomNumY * 0.32, 255);
+  fill (255)
   ellipse (mouseX, mouseY, clickSize, clickSize);
   //noStroke ();
   myRandomNumX = random(width);
