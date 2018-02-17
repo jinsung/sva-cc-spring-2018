@@ -10,6 +10,6 @@ function draw() {
   background(200);
   translate(100, 100); //translate the canvas!!!
 rotate(angle); //45 degree, radient value
-  rect(0, 0, 100, 100);
+  rect(50, 50, 100, 100);
   angle = angle + 1;
 }
