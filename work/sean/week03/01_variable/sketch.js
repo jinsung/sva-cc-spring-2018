@@ -13,8 +13,8 @@ function setup() {
   createCanvas(1427,785);
   background(230);
 
-  //circleY = 0;
-  //circleX = 0;
+  circleY = 0;
+  circleX = 0;
   circleXSpeed = 4.7;
   circleYSpeed = 7.6;
 
@@ -24,7 +24,7 @@ function setup() {
 function draw () {
 
   ellipse (circleX, circleY, clickSize, clickSize);
-  fill (myRandomNumX * 0.17, myRandomNumY * 0.32, 255, 20);
+  fill (myRandomNumX * 0.17, myRandomNumY * 0.32, 255);
   noStroke ();
 
   myRandomNumX = random(width);

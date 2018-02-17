@@ -1,4 +1,3 @@
-var today;
 var hours;
 var minutes;
 var seconds = 0;
@@ -14,6 +13,25 @@ function draw() {
   textSize(30);
   textFont("Helvetica");
 
+  drawTextClock();
+
+  noStroke();
+
+  drawBarClock();
+}
+
+function updateTime() {
+  hours = hour();
+  if (hours > 12) {
+    hours = hours - 12;
+  }
+  minutes = minute();
+  //var sDiff = seconds - second();
+  //seconds = seconds - sDiff * 0.1;
+  seconds = second();
+}
+
+function drawTextClock() {
   fill(0);
   var textX = 30;
   var textY = 60;
@@ -25,11 +43,14 @@ function draw() {
   textY = textY + 35;
   text("Secondes: " + seconds, textX, textY );
 
+}
+
+function drawBarClock() {
+
   var hourBarWidth   = map(hours, 0, 12, 0, width);
   var minuteBarWidth = map(minutes, 0, 59, 0, width);
   var secondBarWidth = map(seconds, 0, 59, 0, width);
 
-  noStroke();
   var barX = 0;
   var barY = 170;
   var barHeight = 230/3;
@@ -41,16 +62,4 @@ function draw() {
   fill(120)
   barY = barY + barHeight;
   rect(0, barY, secondBarWidth, barHeight);
-}
-
-function updateTime() {
-  today = new Date();
-  hours = today.getHours();
-  if (hours > 12) {
-    hours = hours - 12;
-  }
-  minutes = today.getMinutes();
-  var sDiff = seconds - today.getSeconds();
-  seconds = seconds - sDiff * 0.1;
-  seconds = today.getSeconds();
 }
