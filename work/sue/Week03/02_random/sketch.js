@@ -7,6 +7,7 @@ var myRandomNumB;
 
 function setup() {
   background(200);
+  //if background is under setup, many ellipses
   createCanvas(500, 500);
 }
 
@@ -20,7 +21,8 @@ function draw() {
   noStroke();
   stroke(255, 0, 100)
   fill(myRandomNumR, myRandomNumG, myRandomNumB, 100);
-  //the 4th number is opacity
+  //(R, G, B, opacity)
+  //255 is the highest value
   ellipse(myRandomNumX, myRandomNumY, 50, 50);
 
 }

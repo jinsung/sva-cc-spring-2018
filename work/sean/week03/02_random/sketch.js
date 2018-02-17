@@ -3,7 +3,7 @@ var myRandomNumY;
 
 
 function setup() {
-  createCanvas(500,500);
+  createCanvas(1427,785);
   background(200);
 }
 
