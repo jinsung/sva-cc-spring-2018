@@ -54,6 +54,7 @@ function updateTime () {
 
   m = minute();
 
+
   var secondDiff = s - second();
   s = s - secondDiff * 0.1;
 

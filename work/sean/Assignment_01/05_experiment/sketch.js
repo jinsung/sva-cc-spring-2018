@@ -10,8 +10,14 @@ var circle ={
 //var circleSize = 5;
 
 function setup() {
-  createCanvas (1400,780);
+  createCanvas (windowWidth, windowHeight);
 }
+
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 
 function draw() {
   //color
@@ -19,7 +25,7 @@ function draw() {
   g = map(mouseY, 0, 780, 0, 255);
   //b = map(mouseY, 0, 600, 0, 255);
 
-  background(r, g, 150);
+  //background(r, g, 150);
 
   //circle.x = circle.x + 1;
   line(circle.x, circle.y, mouseX, mouseY);
@@ -45,6 +51,7 @@ function draw() {
 
 
 
+
   //This makes when bouncing ball stop when it is near mouseX
   /*
   if (circle.x - 10 < mouseX && circle.x + 10 > mouseX
@@ -60,7 +67,4 @@ function draw() {
     circle.ySpeed = 0;
   }
   */
-
-
-  console.log("circle")
 }
