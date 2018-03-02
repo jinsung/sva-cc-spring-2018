@@ -94,9 +94,9 @@ function draw() {
     background(0);
 
 // organize this part with for loop
-  for (var i = 0; i < width; i = i) {
-    rect (0, i)
-  }
+//  for (var i = 0; i < width; i = i) {
+//    rect (0, i)
+//  }
 
     //row 1
     noStroke();
