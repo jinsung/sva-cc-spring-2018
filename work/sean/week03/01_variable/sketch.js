@@ -10,7 +10,7 @@ var myRandomNumY;
 var clickSize;
 
 function setup() {
-  createCanvas(1427,785);
+  createCanvas(width,height);
   background(230);
 
   circleY = 0;
