@@ -101,15 +101,16 @@
   * [Distance Function](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/05_0_distance/index.html)
 * Assignment : [Clock](http://cmuems.com/2016/60212/lectures/lecture-09-09b-clocks/maedas-clocks/)
 
-### Week 6 -- Clock / 2D Transformation / Object
+### Week 6 -- Clock
   * [Clock Template](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/07_clock_template/index.html)
-  * [2D Transformation](https://jinsung.github.io/sva-cc-spring-2018/week06/examples/02_transform/index.html)
-    * Translate / Rotate - Degree vs Radians / Scale / Registration Point
-  * [Object]
 
 ### Week 7 -- Guest Speaker: Sam Brewton
 
-### Week 8 -- Array
+### Week 8 -- Array / 2D Transformation / Object
+* [2D Transformation](https://jinsung.github.io/sva-cc-spring-2018/week08/examples/03_transform_clock/index.html)
+  * Translate / Rotate - Degree vs Radians / Scale / Registration Point
+* [JavaScript Object Notation (JSON)](https://jinsung.github.io/sva-cc-spring-2018/week08/examples/04_javascript_object/index.html)
+* [Object Oriented Programming - Class](https://jinsung.github.io/sva-cc-spring-2018/week08/examples/06_bouncing_balls_object/index.html)
 
 ### Week 9 -- Image / Font
 
