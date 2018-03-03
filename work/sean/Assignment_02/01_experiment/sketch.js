@@ -3,8 +3,16 @@ var milli;
 var ampm;
 var hr
 
+var circle ={
+  x:1,
+  xSpeed:1.2,
+  y:2,
+  ySpeed:3.1,
+  size:20,
+};
+
 function setup() {
-  createCanvas(400,400);
+  createCanvas(windowWidth,windowHeight);
   angleMode(DEGREES);
 
   sc = second();
@@ -13,34 +21,49 @@ function setup() {
 }
 
 function draw(){
-  background(240);
+  background(230);
+
+  //color
+  r = map(circle.x, 0, windowWidth, 0, 255);
+  g = map(circle.y, 0, windowHeight, 0, 255);
 
   let secondEllipse = 1;
+  let minuteEllipse = 5;
   let mn = minute();
   let sc = second();
 
-  updateTime();
-
-  translate(200,200);
+  //updateTime();
+  noCursor();
+  translate(mouseX, mouseY);
   rotate(-90);
 
-  //Background Circle
-  fill(255);
+  //Background Ellipse
+  fill(r, g, 100);
   ellipse(0, 0, 350, 350);
 
-  fill(56);
+  fill(30);
   ellipse(0, 0, 310, 310);
 
-  //Outline Circles
+  //Big Rotate Circles
+  push();
+  var mEllipse = map(minuteEllipse, 0, 60, 0, 360);
+
+  for (minuteEllipse = 0; minuteEllipse < 360; minuteEllipse = minuteEllipse + 1) {
+    rotate(mEllipse);
+    fill(255);
+    ellipse(0,140,5,5);
+  }
+  pop();
 
 
+  //Mini Rotate Circles
   push();
   var outlineEllipse = map(secondEllipse, 0, 60, 0, 360);
 
   for (secondEllipse = 0; secondEllipse < 360; secondEllipse = secondEllipse + 1) {
     rotate(outlineEllipse);
     fill(255);
-    ellipse(0,140,5,5);
+    ellipse(0,140,2,2);
   }
   pop();
 
@@ -75,39 +98,29 @@ function draw(){
   push();
   rotate(secondAngle);
   strokeWeight(3);
-  stroke(255, 0,0);
+  stroke(r, g, 100);
   line(-20, 0, 150, 0);
   pop();
 
-
-
   //Center Circle
-  fill(255,0,0);
+  fill(r, g, 100);
   noStroke();
   ellipse(0, 0, 10, 10);
 
-  //Time Text
-  rotate(90);
+  //This makes circle bounce
+  circle.x = circle.x + circle.xSpeed
+  circle.y = circle.y + circle.ySpeed
 
-  fill(56);
-
-  fill(240);
-
-  var intS = parseInt(sc);
-  text(hr + ':' + mn + ':' + intS + ampm, -25, -25);
-
-}
-
-
-function updateTime () {
-  hr = hour();
-  if (hr > 12) {
-    hr = hr - 12;
-    ampm = "pm"
-  } else {
-    ampm = "am"
+  if (circle.x < 0 || circle.x > width) {
+    circle.xSpeed = circle.xSpeed * -1;
   }
 
-  //var secondDiff = sc - second();
-  //sc = sc - secondDiff * 0.1;
+  if (circle.y < 0 || circle.y > height) {
+    circle.ySpeed = circle.ySpeed * -1;
+  }
+
+  //bouncing circle
+  noFill();
+  noStroke();
+  ellipse(circle.x, circle.y, circle.size, circle.size);
 }
