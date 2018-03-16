@@ -13,7 +13,7 @@ function draw () {
   circleX = 0;
 
   while (circleX < width){
-    circleX = circleX + 20;
+    circleX = circleX + 10;
     ellipse (circleX, height/2, 10, 10);
   }
 
