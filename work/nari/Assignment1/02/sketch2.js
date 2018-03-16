@@ -93,6 +93,11 @@ function draw() {
   if (mouseIsPressed) {
     background(0);
 
+// organize this part with for loop
+//  for (var i = 0; i < width; i = i) {
+//    rect (0, i)
+//  }
+
     //row 1
     noStroke();
     fill(255);
@@ -150,7 +155,7 @@ function draw() {
     }
 
     barGradient = 255;
-    for (i=0; i < width/7*4; i = i + 9) {
+    for (i = 0; i < width/7*4; i = i + 9) {
       noStroke();
       fill(barGradient);
       rect(i + 286, 330, width/7*4, 100);
@@ -160,7 +165,7 @@ function draw() {
 
     //row4
     barGradient = 0;
-    for (i=0; i < width/7*4; i = i + 40) {
+    for (i = 0; i < width/7*4; i = i + 40) {
       noStroke();
       fill(barGradient);
       rect(i, 430, 180, 50);
