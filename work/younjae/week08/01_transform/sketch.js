@@ -20,7 +20,7 @@ function draw() {
   for( var i = 0; i < numOfRect; i = i + 1) {
     push();
     var fi = i / numOfRect;
-    rotate(fi * mouseX);
+    rotate(fi * second());
     fill(fi * mouseX, fi * mouseY, mouseX/2);
     rect(0, 0, rectWidth, rectWidth);
     rectWidth = rectWidth - 10;
