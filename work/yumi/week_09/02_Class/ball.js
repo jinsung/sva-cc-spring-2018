@@ -1,0 +1,27 @@
+function Ball(){
+  this.setup = function(x, y, size, xSpeed, ySpeed, color){
+    this.x = x;
+    this.y = y;
+    this.size = size;
+    this.xSpeed = xSpeed;
+    this.ySpeed = ySpeed;
+    this.color = color;
+  }
+  this.move = function(){
+    this.x = this.x + this.xSpeed;
+    this.y = this.y + this.ySpeed;
+  }
+
+  this.bounce = function(){
+    if(this.x > width || this.x < 0){
+      this.xSpeed = this.xSpeed *- 1;
+    }
+    if (this.y > height || this.y < 0){
+      this.ySpeed = this.ySpeed *- 1;
+    }
+  }
+  this.display = function(){
+    fill(this.color);
+    ellipse(this.x, this.y, this.size, this.size);
+  }
+}
