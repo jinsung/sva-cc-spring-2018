@@ -1,31 +1,27 @@
 var seconds;
 var m;
 var h;
-var angle;
 
 function setup() {
   createCanvas(500, 500);
   angleMode(DEGREES);
   seconds = 0;
-  rectMode(CENTER);
-  noStroke();
-  angle = 0;
 
 
 }
 
+
 function draw() {
   background(200);
-
-  var rectWidth = width;
-  translate(width/2, height/2);
-
   updateClock();
 
   var secondsAngle = map( seconds, 0, 60, 0, 360) - 90;
   var minutesAngle = map( m, 0, 60, 0, 360) - 90;
   var hoursAngle = map( h, 0, 12, 0, 360) - 90;
 
+
+  translate (width/2, height/2);
+  ellipse( 0, 0, width * 0.9, height * 0.9);
 
 push();
   strokeWeight( 1 );
@@ -47,17 +43,6 @@ push();
   rotate(hoursAngle);
   line(0, 0, width/2 * 0.5, 0);
 pop();
-
-var numOfRect = 50;
-
-for( var i = 0; i < numOfRect; i = i + 1) {
-  push();
-  var fi = i / numOfRect;
-  rotate(fi * mouseX);
-  fill(fi * mouseX, fi * mouseY, mouseX/2);
-  rect(0, 0, rectWidth, rectWidth);
-  rectWidth = rectWidth - 10;
-  pop();
 
 }
 
