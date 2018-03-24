@@ -2,7 +2,7 @@ var balls = [];
 function setup() {
   createCanvas(500, 500);
   smooth();
-  var numOfBalls = 5;
+  var numOfBalls = 1000;
 
   for (var i=0; i<numOfBalls; i++) {
     balls[i] = new BouncingBall();
