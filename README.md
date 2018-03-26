@@ -119,12 +119,19 @@
 * [Array / List of objects](https://jinsung.github.io/sva-cc-spring-2018/week10/examples/05_characters/index.html)
 
 ### Week 11 -- Vector / Force -- Assignment 2 due date
+* Assignment review
+* Robert Hodgin
+  * [Work](https://vimeo.com/31278330)
+  * [Laocoön and His Sons](https://vimeo.com/8268549)
+* Vector
+* Make things move
+* Force
 
-### Week 12 -- Particle
+### Week 12 -- Particle System
 
 ### Week 13 -- 1:1 Meeting
 
-### Week 14 -- Object Interaction
+### Week 14 -- Image / Web Server
 
 ### Week 15 -- Final Project Presentation
 
