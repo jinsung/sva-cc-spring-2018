@@ -30,8 +30,8 @@ function draw() {
 
     sx = cos(angleS) * 170;
     sy = sin(angleS) * 170;
-    mx = cos(angleM) * 120;
-    my = sin(angleM) * 120;
+    mx = cos(angleM) * 130;
+    my = sin(angleM) * 130;
     hx = cos(angleH) * 40;
     hy = sin(angleH) * 40;
 
