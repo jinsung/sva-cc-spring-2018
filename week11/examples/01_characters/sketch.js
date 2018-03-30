@@ -1,7 +1,7 @@
 var charObjs = [];
 var chars = "Hello World!";
 var nextCharXPos = 0;
-var charSize = 30;
+var charSize = 10;
 function setup() {
   createCanvas(500, 500);
   smooth();
@@ -15,9 +15,13 @@ function setup() {
 
 function draw() {
   background(200);
+
   push();
+  var rotX = Math.cos(PI/2);
+  var rotY = Math.cos(PI/2);
   translate(width/2 - nextCharXPos, 0);
   for (var i=0; i<charObjs.length; i++) {
+
     charObjs[i].move();
     charObjs[i].bounce(width, height);
     charObjs[i].draw();
