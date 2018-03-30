@@ -22,7 +22,8 @@ function setup() {
 
 function draw(){
   background(230);
-
+  console.log(hr);
+  text('Current hour:\n' + hr, 5, 50);
   //color
   r = map(circle.x, 0, windowWidth, 0, 255);
   g = map(circle.y, 0, windowHeight, 0, 255);
