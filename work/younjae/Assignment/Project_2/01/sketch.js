@@ -28,25 +28,25 @@ function draw() {
     angleM = map(minute(), 0, 60, 0, TWO_PI) - HALF_PI;
     angleH = map(hour(), 0, 24, 0, TWO_PI * 2) - HALF_PI;
 
-    sx = cos(angleS) * 165;
-    sy = sin(angleS) * 165;
+    sx = cos(angleS) * 170;
+    sy = sin(angleS) * 170;
     mx = cos(angleM) * 120;
     my = sin(angleM) * 120;
-    hx = cos(angleH) * 30;
-    hy = sin(angleH) * 30;
+    hx = cos(angleH) * 40;
+    hy = sin(angleH) * 40;
 
     noStroke();
-    textFont("Opensans");
+    textFont("FredokaOne-Regular");
 
     textSize(28);
     fill(color(220, 36, 105));
     text(second(), sx, sy);
 
-    textSize(36);
+    textSize(46);
     fill(color(109, 86, 244));
     text(minute(), mx, my);
 
-    textSize(80);
+    textSize(90);
     fill(color(0, 78, 154));
     text(hour(), hx, hy);
 
