@@ -1,3 +1,8 @@
+var strokeColor1;
+var strokeColor2;
+var strokeColor3;
+
+
 function setup(){
   createCanvas(600,600);
   angleMode(DEGREES);
@@ -12,11 +17,15 @@ function draw(){
   let mn=minute();
   let sc=second();
 
+  strokeColor1= map(sc,0,60,0,360)+100;
+  strokeColor2= map(mn,0,60,0,360);
+  strokeColor3= map(hr % 12,0,12,0,360);
+
 
 
 
  strokeWeight(14);
- stroke(251,88,228);
+ stroke(251,88,strokeColor1);
  noFill();
  //fill(250);
  let secondAngle = map(sc,0,60,0,360);
@@ -33,7 +42,7 @@ function draw(){
  push();
  rotate(secondAngle);
  strokeWeight(10);
- stroke(251,88,228);
+ stroke(251,88,strokeColor1);
  line(0,0,70,0);
  pop();
 

@@ -1,4 +1,5 @@
 
+
 function setup(){
   createCanvas(500,500);
   angleMode(DEGREES);
@@ -9,7 +10,7 @@ function setup(){
 }
 
 function draw(){
-  background(0);
+  background(0,0,250);
   updateClock();
   translate(width/2,height/2);
 
@@ -37,7 +38,7 @@ function draw(){
 
   push();
   noStroke();
-  fill(0,20,mouseY,50);
+  fill(0,secondsAngle*100,secondsAngle*100,100);
   ellipse(0,0,400,400);
   pop();
 
