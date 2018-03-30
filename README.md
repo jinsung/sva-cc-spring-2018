@@ -106,23 +106,32 @@
 
 ### Week 7 -- Guest Speaker: Sam Brewton
 
-### Week 8 -- Array / 2D Transformation / Object
+### Week 8 -- 2D Transformation
 * [2D Transformation](https://jinsung.github.io/sva-cc-spring-2018/week08/examples/03_transform_clock/index.html)
   * Translate / Rotate - Degree vs Radians / Scale / Registration Point
 * [JavaScript Object Notation (JSON)](https://jinsung.github.io/sva-cc-spring-2018/week08/examples/04_javascript_object/index.html)
 * [Object Oriented Programming - Class](https://jinsung.github.io/sva-cc-spring-2018/week08/examples/06_bouncing_balls_object/index.html)
 
-### Week 9 -- Image / Font
+### Week 9 -- Object
+* [Object](https://jinsung.github.io/sva-cc-spring-2018/week09/examples/03_bouncing_balls_object_file/index.html)
 
-### Week 10 -- Vector
+### Week 10 -- Array
+* [Array / List of objects](https://jinsung.github.io/sva-cc-spring-2018/week10/examples/05_characters/index.html)
 
-### Week 11 -- Force -- Assignment 2 due date
+### Week 11 -- Vector / Force -- Assignment 2 due date
+* Assignment review
+* Robert Hodgin
+  * [Work](https://vimeo.com/31278330)
+  * [Laocoön and His Sons](https://vimeo.com/8268549)
+* Vector
+* Make things move
+* Force
 
-### Week 12 -- Particle
+### Week 12 -- Particle System
 
 ### Week 13 -- 1:1 Meeting
 
-### Week 14 -- Object Interaction
+### Week 14 -- Image / Web Server
 
 ### Week 15 -- Final Project Presentation
 
