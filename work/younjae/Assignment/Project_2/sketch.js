@@ -1,39 +1,21 @@
-var angle;
 var seconds;
 var m;
 var h;
+var randomColor
 
 function setup() {
   createCanvas(500, 500);
+  background(30, 30, 30);
   angleMode(DEGREES);
   seconds = 0;
-  angleMode(DEGREES);
-  rectMode(CENTER);
-  noStroke();
-  angle = 0;
+
 
 }
 
 
 function draw() {
-  background(200);
-
-  var rectWidth = width;
-  translate(width/2, height/2);
-
-  var numOfRect = 50;
-
-  for( var i = 0; i < numOfRect; i = i + 1) {
-    push();
-    var fi = i / numOfRect;
-    rotate(fi * second());
-    fill(fi * mouseX, fi * mouseY, mouseX/2);
-    rect(0, 0, rectWidth, rectWidth);
-    rectWidth = rectWidth - 10;
-    pop();
-
-
   updateClock();
+  randomColor= random (255);
 
   var secondsAngle = map( seconds, 0, 60, 0, 360) - 90;
   var minutesAngle = map( m, 0, 60, 0, 360) - 90;
@@ -41,24 +23,26 @@ function draw() {
 
 
   translate (width/2, height/2);
+  ellipse( 0, 0, width * 0.9, height * 0.9);
+  fill( 0, 0, 0);
 
 push();
   strokeWeight( 1 );
-  stroke(255, 0, 0);
+  stroke(randomColor);
   rotate(secondsAngle);
   line(0, 0, width/2 * 0.8, 0);
 pop();
 
 push();
   strokeWeight( 3 );
-  stroke(55, 55, 55);
+  stroke(255, 255, 255);
   rotate(minutesAngle);
   line(0, 0, width/2 * 0.7, 0);
 pop();
 
 push();
   strokeWeight( 10 );
-  stroke(55, 55, 55);
+  stroke(255, 255, 255);
   rotate(hoursAngle);
   line(0, 0, width/2 * 0.5, 0);
 pop();
@@ -73,5 +57,11 @@ function updateClock(){
     h = h - 12;
   }
   m = minute();
-
 }
+
+function mouseClicked(){
+  r = random(0, 255);
+  g = random(0, 255);
+  b = random(0, 255);
+
+ }
