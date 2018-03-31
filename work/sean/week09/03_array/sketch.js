@@ -4,7 +4,7 @@ function setup() {
   createCanvas(500,500);
   var sum = 0;
   var average = 0;
-  
+
   myArray[4] = 80;
   for (var i = 0; i < myArray.length; i++) {
     sum = sum + myArray[i];

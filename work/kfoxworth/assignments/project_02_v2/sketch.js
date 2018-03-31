@@ -1,61 +1,69 @@
-var seconds;
-var hours;
-var minutes;
+
 
 function setup() {
- createCanvas(500, 500);
+ createCanvas(1960, 1080);
  angleMode(DEGREES);
- seconds = 0;
+
 
 }
 
 function draw() {
-  background(200);
-  updateClock();
+  background(255);
 
-  var secondsAngle = map(seconds, 0, 60, 0, 360) - 90;
-  var hoursAngle = map(h, 0, 12, 0, 360) - 90;
-  var minutesAngle = map(m, 0, 60, 0, 360) - 90;
-
-  translate(width/2, height/2);
-  
-  push();
   noStroke();
-  ellipse(0, 0, width * 0.9, height * 0.9);
-  pop();
+  fill(0);
+  rect(100, 250, 900, 200);
 
-  push();
-  strokeWeight(10);
-  rotate(hoursAngle);
-  line(0, 0, width/2 * 0.4, 0);
-  pop();
-
-  push();
-  strokeWeight(10);
-  rotate(minutesAngle);
-  line(0, 0, width/2 * 0.6, 0);
-  pop();
-
-  push();
-  strokeWeight(5);
-  stroke(255, 20, 0);
-  rotate(secondsAngle);
-  line(0, 0, width/2 * 0.8, 0);
-  pop();
-
-  push();
   noStroke();
-  fill(255, 20, 0);
-  ellipse(0, 0, width * 0.04, height * 0.04);
+  fill(200);
+  rect(300, 100, 500, 500, 80);
+
+  noStroke();
+  fill(30);
+  rect(350, 150, 400, 400, 40);
+
+  translate(550, 350);
+  rotate(-90);
+
+  let hr = hour();
+  let mn = minute();
+  let sc = second();
+
+  strokeWeight(20);
+  stroke(191, 4, 0);
+  noFill();
+  ellipse(0, 0, 335);
+
+  strokeWeight(20);
+  stroke(127, 115, 4);
+  noFill();
+  ellipse(0, 0, 299);
+
+  strokeWeight(20);
+  stroke(0, 189, 191);
+  noFill();
+  ellipse(0, 0, 260);
+
+  strokeWeight(20);
+  stroke(255, 5, 0);
+  noFill();
+  let end1 = map(sc, 0, 60, 0, 360);
+  arc(0, 0, 335, 335, 0, end1);
+
+  stroke(255, 230, 8);
+  let end2 = map(mn, 0, 60, 0, 360);
+  arc(0, 0, 299, 299, 0, end2);
+
+  stroke(0, 251, 255);
+  let end3 = map(hr % 12, 0, 12, 0, 360);
+  arc(0, 0, 260, 260, 0, end3);
+
+
+  push();
+  rotate(90);
+  textSize(40);
+  fill(255);
+  noStroke();
+  text(hr % 12 + ':' + mn + ':' + sc, -50, 10);
   pop();
-
-}
-
-function updateClock() {
-  seconds = second();
-  h = hour();
-  if (h > 12) {
-    h = h - 12;
-  }
-  m = minute();
 }
