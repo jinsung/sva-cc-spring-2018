@@ -75,34 +75,63 @@
   * Boolean Variable
   * Conditional Statement
   * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260)
-* Assignment: Generative art #1
+* Assignment: Generative art #1 ( Due date - 02/16/2018 )
   * Draw shapes
   * Make time or interactive based animation
   * Play with colors
   * Use If statement.
   * Use For loop for bonus points!
 
-### Week 4 -- Variable / Loop
+### Week 4 -- Loop & Grid animation
+* Topics
+  * [if / else](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/01_conditions/index.html)
+  * Comparison Operators
+  * [While loop](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/02_while_loop/index.html)
+  * Loop inside of draw function
+  * [For Loop](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/03_for_loop/index.html)
+  * [Nested Loops](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/04_nested_loop/index.html)
+  * [Random, Sine, Cosine and Noise!!!](https://jinsung.github.io/sva-cc-spring-2018/week04/examples/05_noise/index.html)
 
 ### Week 5 -- Functions - Assignment 1 due date
+* Assignment review
+* Topics
+  * Define and Calling a Function
+  * [Bouncing ball with Function](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/02_bouncing_ball_w_function/)
+  * [Draw Target](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/04_target_w_function/index.html)
+  * [Distance Function](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/05_0_distance/index.html)
+* Assignment : [Clock](http://cmuems.com/2016/60212/lectures/lecture-09-09b-clocks/maedas-clocks/)
 
-### Week 6 -- Object / 2D transformation
+### Week 6 -- Clock
+  * [Clock Template](https://jinsung.github.io/sva-cc-spring-2018/week05/examples/07_clock_template/index.html)
 
-### Week 7 -- OOP
+### Week 7 -- Guest Speaker: Sam Brewton
 
-### Week 8 -- Array
+### Week 8 -- 2D Transformation
+* [2D Transformation](https://jinsung.github.io/sva-cc-spring-2018/week08/examples/03_transform_clock/index.html)
+  * Translate / Rotate - Degree vs Radians / Scale / Registration Point
+* [JavaScript Object Notation (JSON)](https://jinsung.github.io/sva-cc-spring-2018/week08/examples/04_javascript_object/index.html)
+* [Object Oriented Programming - Class](https://jinsung.github.io/sva-cc-spring-2018/week08/examples/06_bouncing_balls_object/index.html)
 
-### Week 9 -- Vector
+### Week 9 -- Object
+* [Object](https://jinsung.github.io/sva-cc-spring-2018/week09/examples/03_bouncing_balls_object_file/index.html)
 
-### Week 10 -- Force -- Assignment 2 due date
+### Week 10 -- Array
+* [Array / List of objects](https://jinsung.github.io/sva-cc-spring-2018/week10/examples/05_characters/index.html)
 
-### Week 11 -- Particle
+### Week 11 -- Vector / Force -- Assignment 2 due date
+* Assignment review
+* Robert Hodgin
+  * [Work](https://vimeo.com/31278330)
+  * [Laocoön and His Sons](https://vimeo.com/8268549)
+* Vector
+* Make things move
+* Force
 
-### Week 12 -- Image
+### Week 12 -- Particle System
 
 ### Week 13 -- 1:1 Meeting
 
-### Week 14 -- Object Interaction
+### Week 14 -- Image / Web Server
 
 ### Week 15 -- Final Project Presentation
 
