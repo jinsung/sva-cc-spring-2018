@@ -64,10 +64,17 @@ function displayClockSquares () {
     for (var i = 0; i < width; i = i + 30) {
       rectArray[i] = rect(i, 200, 30, 30);
     }
+    for (var i = 0; i < width; i = i + 30) {
+      rectArray[i] = rect(i, 230, 30, 30);
+    }
+
+    for (var i = 0; i < width; i = i + 30) {
+      rectArray[i] = rect(i, 260, 30, 30);
+    }
     //console.log(numberOfSquares);
 }
 
-function displayClockHours(h, londonh, japanh) {
+function displayNYClockHours(h) {
   for (var i = -30; i < h * 30; i = i + 30) {
     if (mouseIsPressed){
       rect(i, 200, 30, 30);
@@ -75,11 +82,27 @@ function displayClockHours(h, londonh, japanh) {
     }
 
   }
-  console.log(h + ' ' + londonh + ' ' + japanh + ' ');
-
-
 }
 
+function displayLondonClockHours(londonh) {
+  for (var i = -30; i < londonh * 30; i = i + 30) {
+    if (mouseIsPressed){
+      rect(i, 230, 30, 30);
+      fill(245);
+    }
+
+  }
+}
+
+function displayJapanClockHours(japanh) {
+  for (var i = -30; i < japanh * 30; i = i + 30) {
+    if (mouseIsPressed){
+      rect(i, 260, 30, 30);
+      fill(235);
+    }
+
+  }
+}
 /*
     1 am
     rect(30, 200, 30, 30);
@@ -152,7 +175,9 @@ function draw() {
    displayGreenwichMeanTimeZone();
    displayJapanTimeZone();
    displayClockSquares();
-   displayClockHours(h, londonh, japanh);
+   displayNYClockHours(h);
+   displayLondonClockHours(londonh);
+   displayJapanClockHours(japanh);
 //   displayClockBar();
 
 
