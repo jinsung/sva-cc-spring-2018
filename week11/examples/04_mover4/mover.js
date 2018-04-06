@@ -40,9 +40,9 @@ class Mover {
     push()
     translate(this.loc.x, this.loc.y);
     rotate(this.vel.heading());
-    textSize(this.size);
-    text(this.char, 0, 0);
-    //ellipse(0, 0, this.size);
+    //textSize(this.size);
+    //text(this.char, 0, 0);
+    ellipse(0, 0, this.size);
     pop();
 
   }
