@@ -36,10 +36,10 @@ function addLoveForce (){
     for (var j = i; j >= 0; j--) {
       var otherLoverLoc = lovers[j].loc.copy();
       var distBtwOtherLovers = otherLoverLoc.sub(loverLoc);
-      if (distBtwOtherLovers.mag() < (lovers[i].size * 2)) {
-        distBtwOtherLovers.mult(0.001);
-        lovers[i].addForce(diff);
-        lovers[j].addForce(-diff);
+      if (distBtwOtherLovers.mag() < (lovers[i].size * 1.3)) {
+        distBtwOtherLovers.mult(0.01);
+        lovers[i].addForce(-distBtwOtherLovers);
+        lovers[j].addForce(distBtwOtherLovers);
       }
     }
     var haterLoc = hater.loc.copy();
