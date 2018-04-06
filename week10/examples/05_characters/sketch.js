@@ -1,7 +1,7 @@
 var charObjs = [];
 var chars = "Hello World!";
 var nextCharXPos = 0;
-var charSize = 10;
+var charSize = 30;
 function setup() {
   createCanvas(500, 500);
   smooth();
