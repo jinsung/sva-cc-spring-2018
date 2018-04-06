@@ -78,7 +78,7 @@ function displayNYClockHours(h) {
   for (var i = -30; i < h * 30; i = i + 30) {
     if (mouseIsPressed){
       rect(i, 200, 30, 30);
-      fill(255);
+      fill(0, i, 0);
     }
 
   }
@@ -88,7 +88,7 @@ function displayLondonClockHours(londonh) {
   for (var i = -30; i < londonh * 30; i = i + 30) {
     if (mouseIsPressed){
       rect(i, 230, 30, 30);
-      fill(245);
+      fill(0, i, 0);
     }
 
   }
@@ -98,10 +98,14 @@ function displayJapanClockHours(japanh) {
   for (var i = -30; i < japanh * 30; i = i + 30) {
     if (mouseIsPressed){
       rect(i, 260, 30, 30);
-      fill(235);
+      fill(0, i, 0);
     }
 
   }
+}
+
+function moveSquares(){
+    rect(i, 230, 30, 30);
 }
 /*
     1 am
@@ -153,23 +157,8 @@ function displayJapanClockHours(japanh) {
 
 
 
-
-function displayClockBar () {
-  var barHeight = height/2 * 0.333;
-  //data visualization with mapping function
-  var hourBarWidth = map(h, 0, 12, 0, width);
-  rect(0, height/2 - 100, hourBarWidth, barHeight);
-
-  var minuteBarWidth = map(m, 1, 60, 0, width);
-  rect(0, height/2, minuteBarWidth, barHeight);
-
-  var secondBarWidth = map(s, 1, 60, 0, width);
-  rect(0, height/2 + 100, secondBarWidth, barHeight);
-}
-
-
 function draw() {
-   background(255);
+   background(0, 255, 0);
    updateTime();
    displayEasternTimeZone();
    displayGreenwichMeanTimeZone();
