@@ -24,9 +24,12 @@ function updateTime() {
 function displayTimeZones(){
   //number of rectangles
 
-  for (var i = 0; i < width; i = i + width/24){
+  for (var i = width; i >= 0; i = i - width/24){
     rect(i, 0, width/24, height);
-    fill(0, 0, mouseY-255);
+
+    //how to decrease the color from left to right
+    //piano or domino effect?
+    fill(0, 0, 255);
   }
 }
 
@@ -35,8 +38,6 @@ function draw() {
    background(200);
    displayTimeZones();
    updateTime();
-
-//   displayClockBar();
 
 
 }
