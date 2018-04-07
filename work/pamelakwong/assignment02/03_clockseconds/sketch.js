@@ -17,6 +17,13 @@ function setup() {
   squareWidth = Math.sqrt(areaOfSquare);
 //  console.log(squareWidth);
 
+  //number of boxes in each row
+//  console.log(width/squareWidth);
+  //number of boxes in each column
+//  console.log(height/squareWidth);
+  //console.log(width/squareWidth * height/squareWidth);
+
+
 }
 
 function time() {
@@ -37,15 +44,19 @@ function convertToSeconds(){
 
 function drawSecondsBoxes(){
 
-  var rectangles = [];
-
   for (var x = 0; x < width; x = x + squareWidth){
     for (var y = 0; y < height; y = y + squareWidth){
       rect(x, y, squareWidth, squareWidth);
     }
+
   }
-  //need to get the number of seconds
+  fill(0, 255, 255);
+}
+
+function subtractSecondsBoxes(){
+  //seconds = # of boxes
   //multiply seconds with the area of ONE square
+  // areaOfSeconds = s * areaOfSquare;
 
   //fill the boxes
   //need to get the height that it will fill up to
@@ -53,10 +64,21 @@ function drawSecondsBoxes(){
 
   //or assign the seconds to the rect[i]
   //current second is blue
-  var areaOfSeconds = s * areaOfSquare;
 
-  console.log(areaOfSeconds);
+  //calculate the width
+  var subtractWidth = s * squareWidth;
+  //calculate the height
+  var subtractHeight = s * squareWidth;
 
+  for (var x = 0; x < subtractWidth; x = x + squareWidth){
+    for (var y = 0; y < subtractHeight; y = y + squareWidth){
+      rect(x, y, squareWidth, squareWidth);
+    }
+    fill(255, 0, 0);
+  }
+
+
+//  console.log(areaOfSeconds);
 }
 
 
@@ -70,5 +92,6 @@ function draw() {
 //   console.log(h, m, s);
    convertToSeconds();
 //   console.log(s);
+  subtractSecondsBoxes();
 
 }
