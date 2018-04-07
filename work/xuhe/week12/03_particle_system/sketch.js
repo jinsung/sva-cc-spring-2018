@@ -2,7 +2,7 @@ var ps;
 
 function setup(){
   createCanvas(500,500);
-  ps = new ParticleSystem();
+  ps = new particleSystem();
 }
 
 
