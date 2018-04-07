@@ -1,3 +1,13 @@
+/*Name: Pamela Kwong
+  Date: 20180407
+  Project: This class indicates the current second.
+
+  Current Problems and solutions:
+  Create a new js file and create an array
+  to indicate the specific seccond.
+
+*/
+
 var canvasArea;
 var areaOfSquare;
 var squareWidth;
@@ -70,11 +80,11 @@ function subtractSecondsBoxes(){
   //calculate the height
   var subtractHeight = s * squareWidth;
 
-  for (var x = 0; x < subtractWidth; x = x + squareWidth){
-    for (var y = 0; y < subtractHeight; y = y + squareWidth){
+  for (var x = subtractHeight; x >= 0; x = x - squareWidth){
+    for (var y = subtractHeight; y >= 0; y = y - squareWidth){
       rect(x, y, squareWidth, squareWidth);
     }
-    fill(255, 0, 0);
+    fill(255);
   }
 
 
