@@ -17,7 +17,6 @@ class Minutes {
   updateTime(){
     this.h = hour();
     this.m = minute();
-    this.s = second();
   }
 
   displayTime(){
@@ -38,13 +37,6 @@ class Minutes {
     }
   }
 
-
-  drawSeconds(){
-    var secondDiff = this.s - second();
-    this.s = this.s - secondDiff * 0.1;
-    var secondBarHeight = map(this.s, 1, 60, 0, this.y);
-    rect(this.x+50, 0, 100, secondBarHeight);
-  }
 
   currentMinute(){
     if(mouseIsPressed){

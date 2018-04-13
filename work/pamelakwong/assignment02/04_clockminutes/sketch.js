@@ -9,13 +9,14 @@
 
 */
 var minutes;
-var h;
-var m;
+var seconds;
 
 function setup() {
   createCanvas(1200, 1200);
 
   minutes = new Minutes(1000, 1000, 255);
+  seconds = new Seconds(1000, 1000);
+
 }
 
 function draw() {
@@ -23,7 +24,10 @@ function draw() {
   minutes.drawBoxes();
   minutes.currentMinute();
   minutes.updateTime();
-  minutes.drawSeconds();
   minutes.displayTime();
+
+
+  seconds.drawSeconds();
+  seconds.drawBoxes();
 
 }
