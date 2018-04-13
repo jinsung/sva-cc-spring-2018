@@ -1,36 +1,60 @@
+var i;
+var j;
+var rectWidth;
+var rectHeight;
+
 class Minutes {
-  constructor(x, y){
-    this.x = (width-1)/24;
-    this.y = (height-1)/60;
+  constructor(x, y, color){
+    //width of the canvas
+    this.x = x;
+    //height of the canvas
+    this.y = y;
+    rectWidth = this.x/24;
+    rectHeight = this.y/60;
+    this.color = color;
   }
 
-  drawCanvas(){
-    for (var i = 0; i < width; i = i + this.x){
-      for (var j = 0; j < height; j = j + this.y){
-        rect(i, j, this.x, this.y);
+  updateTime(){
+    this.h = hour();
+    this.m = minute();
+    this.s = second();
+  }
+
+  displayTime(){
+    fill(0, 0, 255);
+    textSize(25);
+    textLeading(50);
+    text(this.h, width/2, 1100);
+    text(this.m, width/2 + 50, 1100);
+
+  }
+
+  drawBoxes(){
+    for (i = 0; i < this.x; i = i + rectWidth){
+      for (j = 0; j < this.y; j = j + rectHeight){
+        rect(i, j, rectWidth, rectHeight);
         fill(0, 255, 233);
       }
     }
   }
 
-  currentTime(){
-    this.h = hour();
-    this.m = minute();
+
+  drawSeconds(){
+    var secondDiff = this.s - second();
+    this.s = this.s - secondDiff * 0.1;
+    var secondBarHeight = map(this.s, 1, 60, 0, this.y);
+    rect(this.x+50, 0, 100, secondBarHeight);
   }
 
   currentMinute(){
-    for (var i = 0; i < this.h * ((width-1)/24); i = i + (width-1)/24){
-      for (var j = 0; j < this.m * ((height-1)/60); j = j + (width-1)/60){
-        rect(i, j, (width-1)/24, (width-1)/60);
-        fill(255);
+    if(mouseIsPressed){
+      for (i = 0; i < this.h * rectWidth; i = i + rectWidth){
+        for (j = 0; j < this.m * rectHeight; j = j + rectHeight){
+          rect(i, j, rectWidth, rectHeight);
+          fill(255);
+        }
       }
     }
   }
 
-
-  display(){
-    textFont('Courier');
-    textSize(30);
-    text(this.h);
-  }
 }

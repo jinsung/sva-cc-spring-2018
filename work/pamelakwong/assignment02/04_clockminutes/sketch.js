@@ -4,31 +4,26 @@
 
   minutes.js
   draws the boxes into the createCanvas
-
-  currentminute.js
-  highlights the currentMinute
+  and highlights the currentTime
+  when you press on the mouse.
 
 */
 var minutes;
-var currentMinute;
+var h;
+var m;
 
 function setup() {
   createCanvas(1200, 1200);
-  minutes = new Minutes(1000, 1000);
-//  h = hour();
-//  m = minute();
-//  currentMinute = new CurrentMinute(h, m);
 
+  minutes = new Minutes(1000, 1000, 255);
 }
 
 function draw() {
-   minutes.drawCanvas();
-   minutes.currentTime();
-   minutes.currentMinute();
-   minutes.display();
-   currentMinute.display();
 
-
-
+  minutes.drawBoxes();
+  minutes.currentMinute();
+  minutes.updateTime();
+  minutes.drawSeconds();
+  minutes.displayTime();
 
 }
