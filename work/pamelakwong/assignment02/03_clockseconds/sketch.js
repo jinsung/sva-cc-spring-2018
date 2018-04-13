@@ -102,6 +102,6 @@ function draw() {
 //   console.log(h, m, s);
    convertToSeconds();
 //   console.log(s);
-  subtractSecondsBoxes();
+//  subtractSecondsBoxes();
 
 }
