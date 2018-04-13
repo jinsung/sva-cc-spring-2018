@@ -18,8 +18,8 @@ class Seconds{
   }
 
   drawBoxes(){
-    for (i = 0; i < this.x; i = i + 2 * rectWidth){
-      for (j = 0; j < this.y; j = j + 2 * rectHeight){
+    for (i = 0; i < this.x; i = i + (2 * rectWidth)){
+      for (j = 0; j < this.y; j = j + (2 * rectHeight)){
         rect(i, j, rectWidth, rectHeight);
         fill(100, 255, 233);
       }

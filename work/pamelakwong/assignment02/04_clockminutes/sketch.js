@@ -7,6 +7,10 @@
   and highlights the currentTime
   when you press on the mouse.
 
+  seconds.js
+  for every other box
+  the color is white
+
 */
 var minutes;
 var seconds;
