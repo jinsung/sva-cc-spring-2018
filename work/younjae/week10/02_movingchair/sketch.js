@@ -1,7 +1,7 @@
 var charObjs = [];
 var myString = "HELP ME!!"
 var xPos = 0;
-var charSize = 20;
+var charSize = 35;
 
 function setup() {
   createCanvas(500, 500);
