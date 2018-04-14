@@ -7,7 +7,7 @@ class particleSystem {
   addParticles(numOfParticles,location){
     for (var i=0; i<numOfParticles;i++){
       var particle = new Particle(location);
-      // apply applyForce
+      // apply Force
       particle.applyForce(createVector(random(-10,10),random(-10,10)));
       this.particles.push(particle);
     }

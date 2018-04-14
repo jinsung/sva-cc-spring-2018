@@ -7,6 +7,7 @@ class Particle{
     this.isDead = false;
     this.age = 0;
     this.lifeSpan = random (60,110);
+    this.size = 10;
 }
 
   applyForce(force){
@@ -31,8 +32,11 @@ class Particle{
 
 
   display(){
+    // particle size decrease based on age
+    var life= (this.lifeSpan - this.age)/this.lifeSpan;
+    var size = this.size * life;
     noStroke();
-    fill(255,255*((this.lifeSpan-this.age)/this.lifeSpan))
-    ellipse(this.loc.x,this.loc.y,10,10);
+    fill(255*life);
+    ellipse(this.loc.x,this.loc.y,size,size);
   }
 }
