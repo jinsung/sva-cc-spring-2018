@@ -17,7 +17,8 @@ function draw(){
   let mn=minute();
   let sc=second();
 
-  strokeColor1= map(sc,0,60,0,360)+100;
+  // mapping the range should from 0 to 255
+  strokeColor1= map(sc,0,60,0,255);
   strokeColor2= map(mn,0,60,0,360);
   strokeColor3= map(hr % 12,0,12,0,360);
 
@@ -25,7 +26,7 @@ function draw(){
 
 
  strokeWeight(14);
- stroke(251,88,strokeColor1);
+ stroke(251,88,strokeColor1,stokeColor1);
  noFill();
  //fill(250);
  let secondAngle = map(sc,0,60,0,360);
