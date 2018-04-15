@@ -4,7 +4,7 @@ function setup() {
   createCanvas(500, 500);
   for (var i = 0; i < 400; i++){
     var ii = i * 0.01;
-    ball[i] = new BouncingBall(
+    ball[i] = new BouncingBall (
       random(width),
       random(height),
       50,
