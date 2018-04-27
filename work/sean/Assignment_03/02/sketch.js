@@ -18,6 +18,9 @@ var square ={
   size:50,
 };
 
+var mousePositions = [];
+var numOfMousePos = 15;
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   ps = new ParticleSystem();
@@ -25,16 +28,17 @@ function setup() {
 }
 
 function draw() {
+  // add 10 previous mouse positions.
+  mousePositions.unshift(createVector(mouseX, mouseY));
+  if(mousePositions.length > numOfMousePos) {
+      mousePositions.pop();
+  }
 
   r = map(bgCircle.x, 0, windowWidth, 0, 255);
   g = map(bgCircle.y, 0, windowHeight, 0, 255);
   b = map(mouseY, 0, 500, 0, 255);
-  background(r, g, 150);
-
-  //cursor
-  fill(255);
-  ellipse(mouseX,mouseY,circle.size, circle.size);
-  noCursor();
+  //background(r, g, 150);
+  background(35);
 
   //This makes circle bounce
   bgCircle.x += bgCircle.xSpeed
@@ -53,21 +57,32 @@ function draw() {
   noStroke();
   ellipse(bgCircle.x, bgCircle.y, bgCircle.size, bgCircle.size);
 
-  for (square.x = 0; square.x <= width; square.x += 50 ){
-    for (square.y = 0; square.y <= width; square.y += 50 ){
-      if (square.x - 0 < mouseX && square.x + 50 > mouseX && square.y - 0 < mouseY && square.y + 50 > mouseY) {
-        fill(0,0,0,0);
-      }  else if (fill(35));
-      if (mouseIsPressed){
-        noFill();
-        circle.size = 55;
-      } else {
-        circle.size = 15;
+  for (square.x = 0; square.x <= width; square.x += square.size ){
+    for (square.y = 0; square.y <= height; square.y += square.size ){
+      for (var i = 0; i < mousePositions.length; i++) {
+        var mPos = mousePositions[i];
+        if (square.x - 0 < mPos.x &&
+            square.x + 50 > mPos.x &&
+            square.y - 0 < mPos.y &&
+            square.y + 50 > mPos.y) {
+          fill(r, g, 150, (1-i/mousePositions.length) * 255);
+          rect (square.x, square.y, square.size, square.size);
+        }
       }
-      rect (square.x, square.y, square.size, square.size);
     }
   }
 
+  if (mouseIsPressed){
+    noFill();
+    circle.size = 55;
+  } else {
+    circle.size = 15;
+  }
+
+  //cursor
+  fill(255);
+  ellipse(mouseX,mouseY,circle.size, circle.size);
+  noCursor();
 
   noStroke();
   ps.update();
