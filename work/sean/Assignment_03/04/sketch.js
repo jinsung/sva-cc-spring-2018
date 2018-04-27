@@ -6,8 +6,8 @@ function Circle(_x, _y, _dia) {
   this.dia = _dia;
 
   this.draw = function() {
-    fill(255);
-    ellipse(this.x, this.y, this.dia, this.dia);
+    noCursor();
+    noFill();
   }
 }
 
@@ -19,13 +19,13 @@ function Line(_x1, _y1, _x2, _y2) {
 
   this.draw = function() {
     noFill();
-    stroke(255, 50);
+    stroke(random(150,200), random(50,190), 110);
     line(this.x1, this.y1, this.x2, this.y2)
   }
 
   this.move = function() {
-    t += 0.1;
-    this.x2 = this.x1 + noise(t)*10 + 50;
+
+    this.x2 = this.x1 + noise(50)
     this.y2 = this.y2 + noise(t*100)*50 + 10;
   }
 }
@@ -43,10 +43,10 @@ function mouseMoved(){
 }
 
 function draw() {
-  background(0);
+  background(0,30);
   textFont("courier");
   fill(255);
-  text("drag mouse to draw.", 10, 20);
+  text("Facebook NY Installation", 10, 20);
   for (var i=0; i<circles.length; i++) {
    circles[i].draw();
    lines[i].draw();
