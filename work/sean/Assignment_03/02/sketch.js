@@ -37,9 +37,15 @@ function draw() {
   r = map(bgCircle.x, 0, windowWidth, 0, 255);
   g = map(bgCircle.y, 0, windowHeight, 0, 255);
   b = map(mouseY, 0, 500, 0, 255);
-  //background(r, g, 150);
-  background(35);
+  background(r, g, 150);
 
+  if (mouseIsPressed){
+    noFill();
+    circle.size = 55;
+  } else {
+    background(35);
+    circle.size = 15;
+  }
   //This makes circle bounce
   bgCircle.x += bgCircle.xSpeed
   bgCircle.y += bgCircle.ySpeed
