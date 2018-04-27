@@ -9,8 +9,8 @@ function draw() {
   fill( 255 );
   circleX = 0;
 
-  while ( circleX < width ) {
-    circleX = circleX + 10;
+  while ( circleX < mouseX ) {
+    circleX = circleX + 20;
     ellipse(circleX, height/2, 10, 10);
   }
 
