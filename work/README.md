@@ -29,12 +29,12 @@
  * [assignment 02_1](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_02/01_experiment/index.html)
  * [assignment 02_2](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_02/02_experiment/index.html)
  * [assignment 02_3](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_02/03_experiment/index.html)
- * [assignment 02_4](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_02/04_experiment/index.html)
- * [assignment 03_1](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_02/00/index.html)
- * [assignment 03_2](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_02/01/index.html)
- * [assignment 03_3](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_02/02/index.html)
- * [assignment 03_4](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_02/03/index.html)
- * [assignment 03_5](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_02/04/index.html)
+ * [assignment 02_4](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_02/04_array_object/index.html)
+ * [assignment 03_1](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_03/00/index.html)
+ * [assignment 03_2](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_03/01/index.html)
+ * [assignment 03_3](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_03/02/index.html)
+ * [assignment 03_4](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_03/03/index.html)
+ * [assignment 03_5](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_03/04/index.html)
 
 ### Pamela Kwong
  * [assignment 01](https://jinsung.github.io/sva-cc-spring-2018/work/pamelakwong/assignment01/index.html)
