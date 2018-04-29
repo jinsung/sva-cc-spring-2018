@@ -49,7 +49,7 @@
  * [assignment 01_2](https://jinsung.github.io/sva-cc-spring-2018/work/sue/Assignment/Generative_Art_2/index.html)
  * [assignment 01_3](https://jinsung.github.io/sva-cc-spring-2018/work/sue/Assignment/Generative_Art_3/index.html)
  * [assignment 02](https://jinsung.github.io/sva-cc-spring-2018/work/sue/Assignment/Clock/index.html)
- * [assignment 03](https://jinsung.github.io/sva-cc-spring-2018/work/sue/Assignment/Final Project/index.html)
+ * [assignment 03](https://jinsung.github.io/sva-cc-spring-2018/work/sue/Assignment/Final_Project/index.html)
 
 ### Dongkyu Lee
  * [assignment 01](https://jinsung.github.io/sva-cc-spring-2018/work/Dongkyu/assignment01/index.html)
