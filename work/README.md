@@ -80,13 +80,3 @@
  * [assignment 01](https://jinsung.github.io/sva-cc-spring-2018/work/nari/Assignment1/01/index.html)
  * [assignment 01_2](https://jinsung.github.io/sva-cc-spring-2018/work/nari/Assignment1/02/index.html)
  * [assignment 02](https://jinsung.github.io/sva-cc-spring-2018/work/nari/Assignment2_Clock/01/index.html)
-
-### Yumi
- * [work 01](https://jinsung.github.io/sva-cc-spring-2018/work/yumi/assignment_01_upload/sva_spring_2018_assignment_01/index.html)
- * [work 02](https://jinsung.github.io/sva-cc-spring-2018/work/yumi/assignment_01_upload/sva_spring_2018_assignment_02/index.html)
- * [work 03](https://jinsung.github.io/sva-cc-spring-2018/work/yumi/assignment_01_upload/sva_spring_2018_assignment_02_x/index.html)
- * [work 04](https://jinsung.github.io/sva-cc-spring-2018/work/yumi/assignment_01_upload/sva_spring_2018_assignment_03/index.html)
- * [work 05](https://jinsung.github.io/sva-cc-spring-2018/work/yumi/assignment_01_upload/sva_spring_2018_assignment_04/index.html)
- * [work 06](https://jinsung.github.io/sva-cc-spring-2018/work/yumi/assignment_02_clock/Archive/Clock_01/index.html)
- * [work 07](https://jinsung.github.io/sva-cc-spring-2018/work/yumi/assignment_02_clock/Archive/Clock_02/index.html)
- * [work 08](https://jinsung.github.io/sva-cc-spring-2018/work/yumi/assignment_02_clock/Archive/Clock_03/index.html)
