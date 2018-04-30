@@ -1,0 +1,123 @@
+@font-face {
+	font-family: 'Digital-7';
+	//src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.eot?#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.ttf') format('truetype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.svg#Digital-7') format('svg');
+	src: url("LCDPHONE.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background: #000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+ul {
+	float: left;
+	margin: 50px;
+	width: 150px;
+	height: 150px;
+	position: relative;
+	transform-style: preserve-3d;
+	transform: rotateX(5deg) rotateY(-7deg);
+}
+
+.transition {
+	transition: all 0.5s;
+	transform: rotateY(-7deg) rotateX(95deg);
+}
+
+div {
+	margin-top: 200px;
+	animation: sk 30s alternate infinite
+}
+
+ul li {
+	font-family: 'Digital-7';
+	text-align: center;
+	line-height: 170px;
+	font-size: 40px;
+	/*color: rgba(255, 255, 255, 0.2);*/
+	color: #2982FF;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform: translateZ(75px);
+	border: 1px solid #615179;
+	font-weight: 400;
+	/*text-shadow: 0 0 5px #BB90FC, 0 0 6px #BB90FC, 0 0 7px #BB90FC, 0 0 8px #BB90FC, 0 0 9px #BB90FC;*/
+	text-shadow: 0px 0px 5px #000;
+	-webkit-animation: color 10s infinite;
+	animation: color 10s infinite;
+	padding-left: 15px;
+	box-sizing: border-box;
+	
+}
+.back{
+	opacity:0.5;
+}
+li:nth-of-type(1) {
+	font-size: 70px;
+	/*text-shadow: 0 0 5px #fff, 0 0 20px #fefcc9;*/
+	line-height: 150px;
+	/*color: #fff;*/
+	/*color: #2982FF;*/
+}
+
+li:nth-of-type(2) {
+	transform: rotateX(90deg) translateZ(75px)
+}
+
+li:nth-of-type(3) {
+	transform: rotateX(90deg) translateZ(-75px)
+}
+
+li:nth-of-type(4) {
+	transform: rotateY(90deg) translateZ(75px)
+}
+
+li:nth-of-type(5) {
+	transform: rotateY(90deg) translateZ(-75px)
+}
+
+li:nth-of-type(6) {
+	transform: translateZ(-75px);
+}
+
+@keyframes sk {
+	0 {
+		transform: rotateX(-10deg) rotateY(-15deg) rotateZ(-5deg)
+	}
+	100% {
+		transform: rotateX(10deg) rotateY(15deg) rotateZ(5deg)
+	}
+}
+
+@keyframes color {
+	0% {
+		color: #2982ff;
+		text-shadow: 0px 0px 5px #000;
+	}
+	50% {
+		color: #cc4343;
+		text-shadow: 0px 0px 5px #ff0000;
+	}
+}
+
+@-webkit-keyframes color {
+	0% {
+		color: #2982ff;
+		text-shadow: 0px 0px 5px #000;
+	}
+	50% {
+		color: #cc4343;
+		text-shadow: 0px 0px 5px #ff0000;
+	}
+}
