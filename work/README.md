@@ -6,6 +6,8 @@
  * [assignment 01_v3](https://jinsung.github.io/sva-cc-spring-2018/work/kfoxworth/assignments/project_01_v3/index.html)
  * [assignment 02_v1](https://jinsung.github.io/sva-cc-spring-2018/work/kfoxworth/assignments/project_02/index.html)
  * [assignment 02_v2](https://jinsung.github.io/sva-cc-spring-2018/work/kfoxworth/assignments/project_02_v2/index.html)
+ * [assignment 03_v1](https://jinsung.github.io/sva-cc-spring-2018/work/kfoxworth/assignments/project_final_03/index.html)
+ * [assignment 03_v1](https://jinsung.github.io/sva-cc-spring-2018/work/kfoxworth/assignments/project_final_03_v2/index.html)
 
 ### Xu He
  * [assignment 01_1](https://jinsung.github.io/sva-cc-spring-2018/work/xuhe/assignment_01/practice_1/index.html)
@@ -16,8 +18,14 @@
  * [assignment 03_1](https://jinsung.github.io/sva-cc-spring-2018/work/xuhe/assignment_03/Practice_1/index.html)
  * [assignment 03_2](https://jinsung.github.io/sva-cc-spring-2018/work/xuhe/assignment_03/Practice_2/index.html)
  * [assignment 03_3](https://jinsung.github.io/sva-cc-spring-2018/work/xuhe/assignment_03/Practice_3/index.html)
+ * [assignment 03_4](https://jinsung.github.io/sva-cc-spring-2018/work/xuhe/assignment_03/Practice_4/index.html)
+ * [assignment 03_5](https://jinsung.github.io/sva-cc-spring-2018/work/xuhe/assignment_03/Practice_5/index.html)
 
 ### Hyomin Kim
+ * [assignment 01](https://jinsung.github.io/sva-cc-spring-2018/work/Hyomin/assignments/Paul_Klee/index.html)
+ * [assignment 02_1](https://jinsung.github.io/sva-cc-spring-2018/work/Hyomin/assignments/Circle_clock/index.html)
+ * [assignment 02_2](https://jinsung.github.io/sva-cc-spring-2018/work/Hyomin/assignments/Yakitori/index.html)
+ * [assignment 03](https://jinsung.github.io/sva-cc-spring-2018/work/Hyomin/assignments/Final_Butterfuly/index.html)
 
 ### Jamie Kim
 
@@ -69,12 +77,18 @@
 ### Doyeon Lee
  * [assignment 01](https://jinsung.github.io/sva-cc-spring-2018/work/doyeon/homework1/index.html)
  * [assignment 02](https://jinsung.github.io/sva-cc-spring-2018/work/doyeon/homework2/index.html)
+ * [assignment 03_1](https://jinsung.github.io/sva-cc-spring-2018/work/doyeon/homework3/01/index.html)
+ * [assignment 03_2](https://jinsung.github.io/sva-cc-spring-2018/work/doyeon/homework3/02/index.html)
 
 ### Youngjin Lim
  * [assignment 01](https://jinsung.github.io/sva-cc-spring-2018/work/youngjin/assignments/work01/index.html)
  * [assignment 02](https://jinsung.github.io/sva-cc-spring-2018/work/youngjin/assignments/clock/index.html)
+ * [assignment 03](https://jinsung.github.io/sva-cc-spring-2018/work/youngjin/final1/index.html)
 
 ### Kuang Ye
+ * [assignment 01](https://jinsung.github.io/sva-cc-spring-2018/work/kuangye/assignment1/index.html)
+ * [assignment 02](https://jinsung.github.io/sva-cc-spring-2018/work/kuangye/assignment2/index.html)
+ * [assignment 03](https://jinsung.github.io/sva-cc-spring-2018/work/kuangye/assignment3/index.html)
 
 ### Nari
  * [assignment 01](https://jinsung.github.io/sva-cc-spring-2018/work/nari/Assignment1/01/index.html)
