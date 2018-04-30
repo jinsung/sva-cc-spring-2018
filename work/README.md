@@ -83,12 +83,12 @@
 ### Youngjin Lim
  * [assignment 01](https://jinsung.github.io/sva-cc-spring-2018/work/youngjin/assignments/work01/index.html)
  * [assignment 02](https://jinsung.github.io/sva-cc-spring-2018/work/youngjin/assignments/clock/index.html)
- * [assignment 03](https://jinsung.github.io/sva-cc-spring-2018/work/youngjin/final1/index.html)
+ * [assignment 03](https://jinsung.github.io/sva-cc-spring-2018/work/youngjin/assignments/final1/index.html)
 
 ### Kuang Ye
  * [assignment 01](https://jinsung.github.io/sva-cc-spring-2018/work/kuangye/assignment1/index.html)
  * [assignment 02](https://jinsung.github.io/sva-cc-spring-2018/work/kuangye/assignment2/index.html)
- * [assignment 03](https://jinsung.github.io/sva-cc-spring-2018/work/kuangye/assignment3/index.html)
+ * [assignment 03](https://jinsung.github.io/sva-cc-spring-2018/work/kuangye/assignment3/clock.html)
 
 ### Nari
  * [assignment 01](https://jinsung.github.io/sva-cc-spring-2018/work/nari/Assignment1/01/index.html)
