@@ -28,6 +28,10 @@
  * [assignment 03](https://jinsung.github.io/sva-cc-spring-2018/work/Hyomin/assignments/Final_Butterfuly/index.html)
 
 ### Jamie Kim
+ * [assignment 01](https://jinsung.github.io/sva-cc-spring-2018/work/jamie/assignment_01/index.html)
+ * [assignment 02_1](https://jinsung.github.io/sva-cc-spring-2018/work/jamie/assignment_02/index.html)
+ * [assignment 02_2](https://jinsung.github.io/sva-cc-spring-2018/work/jamie/assignment_03/index.html)
+ * [assignment 03](https://jinsung.github.io/sva-cc-spring-2018/work/jamie/Final_Project/index.html)
 
 ### Seung Kirkpatrick
  * [assignment 01_1](https://jinsung.github.io/sva-cc-spring-2018/work/sean/Assignment_01/04_experiment/index.html)
